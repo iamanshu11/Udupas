@@ -622,6 +622,21 @@ section {
 .footer p{
   font-size: 15px;
 }
+.social-links ul{
+  cursor: pointer; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  list-style: none; 
+  gap: 20px;
+}
+.social-links ul li{
+  font-size: 20px;
+  background: #BF7B5D;
+  border-radius: 50%;
+  padding: 5px 10px;
+  color: #fff;
+}
 
 .info-box_text a{
   text-decoration: none;
