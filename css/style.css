@@ -1124,3 +1124,59 @@ section {
           color: #fff;
 
         }
+
+        .about-us-text h3{
+          font-family: "Playfair Display";
+          color: #07405A;
+          font-size: 38px;
+          font-weight: 700;
+        }
+
+        .vertical-divide {
+          height: 100%;
+          width: 1px;
+          background-color: #07405A;
+          margin: 2px;
+          padding: 1px;
+          padding-bottom: 40px;
+          margin: auto;
+        }
+
+        @media only screen and (max-width: 991px) {
+          .vertical-divide {
+            display: none;
+          }
+          .section-subheading {
+            font-size: 14px;
+        }
+
+        }
+
+        .about-service p{
+          font-family: "Playfair Display";
+          font-size: 18px;
+          color: #07405A;
+          margin-top: 10px;
+          font-weight: 600;
+        }
+
+        .work{
+          min-height: 40vh;
+          display: flex;
+          align-items: center;
+          background-image: url("../img/about-us/work-with-us-image.webp");
+          background-size: cover;
+          background-position: center;
+          background-position: bottom;
+          position: relative;
+          margin-bottom: 40px;
+        }
+        .work-text h2{
+          font-family: "Playfair Display SC";
+          font-size: 38px;
+          font-weight: 700;
+        }
+        .work-text p{
+          font-family: "Poppins";
+          font-size: 18px;
+        }
