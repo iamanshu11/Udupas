@@ -465,7 +465,7 @@ h6 {
 
 #hero h2 {
   color: #eee;
-  margin-bottom: 40px;
+  margin-bottom: 25px;
   font-size: 24px;
 }
 
@@ -686,7 +686,7 @@ section {
 
 .eltdf-btn.eltdf-btn-outline {
   color: #c78665;
-  background-color: transparent;
+  background-color: #fff;
   border: 1px solid #c78665;
 }
 
@@ -792,6 +792,7 @@ section {
   font-size: 28px;
   font-weight: 600;
   color: #07405A;
+  margin-left: 35px;
 }
 
 /*--------------------------------------------------------------
