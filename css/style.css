@@ -453,6 +453,7 @@ html {
 }
 
 #hero h1 {
+  font-family: "Playfair Display SC";
   margin: 0 0 10px 0;
   font-size: 48px;
   font-weight: 700;
@@ -1104,3 +1105,22 @@ section {
         width: 400vw;
     }
     }
+
+        #hero-about {
+          min-height: calc(100vh - 110px);
+          display: flex;
+          align-items: center;
+          background-image: url("../img/about-us/about-hero.webp");
+          background-size: cover;
+          background-position: center;
+          position: relative;
+        }
+        #hero-about h1{
+          font-family: "Playfair Display SC";
+          margin: 0 0 10px 0;
+          font-size: 48px;
+          font-weight: 700;
+          line-height: 56px;
+          color: #fff;
+
+        }
