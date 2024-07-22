@@ -826,5 +826,201 @@ section {
   .about-data{
     gap: 20px;
   }
+  section {
+    padding: 20px 0;
+    overflow: hidden;
+}
+.section-heading {
+  font-family: "Playfair";
+  font-size: 32px;
+}
 
+}
+.hospitality-data-ind{
+  margin-left: 45px;
+  border-bottom: 1px solid #000;
+}
+@media only screen and (max-width: 991px) {
+  .hospitality-data-ind{
+    margin-left: 0;
+  }
+}
+
+.hospitality-text h4
+{
+  font-family: "Playfair";
+  color: #07405A;
+  font-weight: 700;
+  font-size: 25px;
+}
+.hospitality-text p{
+  font-family: "Poppins";
+  color: #A17F5A;
+  font-size: 16px;
+}
+/**********************************/
+/********** Effect #10 CSS *********/
+/**********************************/
+.effect-10 {
+  position: relative;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.effect-10 .effect-img {
+  position: relative;
+  font-size: 0;
+  overflow: hidden;
+}
+
+.effect-10 .effect-img img {
+  position: relative;
+  width: 100%;
+  height: auto;
+  transition: .5s;
+}
+
+.effect-10:hover .effect-img img {
+  transform: scale(1.2);
+}
+
+.effect-10 .effect-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: rgba(0, 0, 0, .30);
+  transition: .5s;
+}
+
+.effect-10 .effect-text h2 {
+  color: #ffffff;
+  font-size: 50px;
+  margin: 0;
+  font-family: "Playfair";
+  text-align: center;
+  font-weight: 300;
+}
+
+.effect-10 .effect-detail {
+  position: relative;
+  width: 0;
+  height: 0;
+  display: flex;
+  align-items: center;
+  background: rgba(0, 0, 0, .5);
+  overflow: hidden;
+  transition: .5s;
+  z-index: 1;
+}
+
+.effect-10 .effect-detail:before,
+.effect-10 .effect-detail:after {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 0;
+  content: '';
+}
+
+.effect-10 .effect-detail:before {
+  border-top: 3px solid #ffffff;
+  border-right: 3px solid #ffffff;
+  left: -100%;
+  top: 0;
+}
+
+.effect-10 .effect-detail:after {
+  border-bottom: 3px solid #ffffff;
+  border-left: 3px solid #ffffff;
+  left: 100%;
+  bottom: 0;
+}
+
+@-webkit-keyframes left-up {
+  0% {
+      left: 100%;
+      height: 0;
+  }
+  50% {
+      left: 0;
+      height: 0;
+  }
+  100% {
+      height: 100%;
+      left: 0;
+  }
+}
+
+@-webkit-keyframes right-dn {
+  0% {
+      left: -100%;
+      height: 0;
+  }
+  50% {
+      left: 0;
+      height: 0;
+  }
+  100% {
+      height: 100%;
+      left: 0;
+  }
+}
+
+.effect-10:hover .effect-detail{
+  margin-top: 15px;
+  opacity: 1;
+}
+
+.effect-10:hover .effect-detail:after,
+.effect-10:hover .effect-detail:before {
+  animation-delay: .2s;
+  animation-duration: .7s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards
+}
+
+.effect-10:hover .effect-detail:after {
+  animation-name: left-up;
+}
+
+.effect-10:hover .effect-detail:before {
+  animation-name: right-dn;
+}
+
+.effect-10 .effect-text p {
+  color: #ffffff;
+  font-size: 18px;
+  padding: 0 30px;
+  margin: 0;
+  opacity: 0;
+  transform: scale(0);
+  transition: .5s;
+  transition-delay: .2s;
+  text-align: center;
+}
+
+.effect-10:hover .effect-detail {
+  width: 100%;
+  height: calc(100% - 45px);
+}
+
+.effect-10:hover .effect-detail p {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.effect-10:hover h2{
+  display: none;
+}
+
+.blissful{
+  background-color: #EAEAEA;
 }

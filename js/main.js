@@ -64,6 +64,56 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             }
         })
+  $('.carousel4').owlCarousel({
+    loop: true,
+    margin: 10,
+    nav: false,
+    dots: false,
+    // navText : ["<i class='bi bi-arrow-left'></i>","<i class='bi bi-arrow-right'></i>"],
+    autoplay: true,
+    autoplayTimeout: 1000,
+    autoplayHoverPause: true,
+    infinite: true,
+    cssEase: 'linear',
+    rtl: true,
+    responsive: {
+      0: {
+        items: 1
+      },
+      600: {
+        items: 3
+      },
+      1000: {
+        items: 4
+      }
+    }
+  })
+
+  $('.carousel5').owlCarousel({
+    loop: true,
+    margin: 10,
+    nav: false,
+    dots: false,
+    // navText : ["<i class='bi bi-arrow-left'></i>","<i class='bi bi-arrow-right'></i>"],
+    autoplay: true,
+    autoplayTimeout: 1000,
+    autoplayHoverPause: true,
+    infinite: true,
+    cssEase: 'linear',
+    rtl: false,
+    responsive: {
+      0: {
+        items: 1
+      },
+      600: {
+        items: 3
+      },
+      1000: {
+        items: 4
+      }
+    }
+  })
+
 
 
 });
@@ -227,66 +277,9 @@ document.addEventListener('DOMContentLoaded', () => {
         preloader.remove()
       });
     }
-  
-    /**
-     * Initiate glightbox 
-     */
-    const glightbox = GLightbox({
-      selector: '.glightbox'
-    });
-  
-    /**
-     * Porfolio isotope and filter
-     */
-    window.addEventListener('load', () => {
-      let portfolioContainer = select('.portfolio-container');
-      if (portfolioContainer) {
-        let portfolioIsotope = new Isotope(portfolioContainer, {
-          itemSelector: '.portfolio-item'
-        });
-  
-        let portfolioFilters = select('#portfolio-flters li', true);
-  
-        on('click', '#portfolio-flters li', function(e) {
-          e.preventDefault();
-          portfolioFilters.forEach(function(el) {
-            el.classList.remove('filter-active');
-          });
-          this.classList.add('filter-active');
-  
-          portfolioIsotope.arrange({
-            filter: this.getAttribute('data-filter')
-          });
-  
-        }, true);
-      }
-  
-    });
-  
-    /**
-     * Initiate portfolio lightbox 
-     */
-    const portfolioLightbox = GLightbox({
-      selector: '.portfolio-lightbox'
-    });
-  
-    /**
-     * Portfolio details slider
-     */
-    new Swiper('.portfolio-details-slider', {
-      speed: 400,
-      loop: true,
-      autoplay: {
-        delay: 5000,
-        disableOnInteraction: false
-      },
-      pagination: {
-        el: '.swiper-pagination',
-        type: 'bullets',
-        clickable: true
-      }
-    });
-  
+
+
+
     /**
      * Initiate Pure Counter 
      */
