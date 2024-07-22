@@ -4,39 +4,41 @@
 }
 
 html {
-    scroll-behavior: smooth;
-  }
-  body {
-      font-family: "Poppins", sans-serif;
-      margin: 0;
-      padding: 0;
-      overflow-x: hidden;
-      box-sizing: border-box;
-      /* background-image: linear-gradient(to bottom, #FFFFFF, #F8E8D8); */
-      background-color: #FFF8E7;;
-  }
+  scroll-behavior: smooth;
+}
 
-  a {
-    color: #009961;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    color: #00cc81;
-    text-decoration: none;
-  }
-  
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-family: "Raleway", sans-serif;
-  }
-  
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  /* background-image: linear-gradient(to bottom, #FFFFFF, #F8E8D8); */
+  background-color: #FFF8E7;
+  ;
+}
 
- 
+a {
+  color: #009961;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #00cc81;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+
+
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -614,24 +616,29 @@ section {
   padding: 30px 0;
   color: rgb(0, 0, 0);
 }
-.footer h2{
+
+.footer h2 {
   color: #07405A;
 }
+
 .footer h4 {
   font-family: var(--font-primary);
 }
-.footer p{
+
+.footer p {
   font-size: 15px;
 }
-.social-links ul{
-  cursor: pointer; 
-  display: flex; 
-  align-items: center; 
-  justify-content: center; 
-  list-style: none; 
+
+.social-links ul {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
   gap: 20px;
 }
-.social-links ul li{
+
+.social-links ul li {
   font-size: 20px;
   background: #BF7B5D;
   border-radius: 50%;
@@ -639,12 +646,12 @@ section {
   color: #fff;
 }
 
-.info-box_text a{
+.info-box_text a {
   text-decoration: none;
   color: #000;
 }
 
-.info-box_text a i{
+.info-box_text a i {
   background-color: #BF7B5D;
   color: #fff;
   border-radius: 50%;
@@ -663,11 +670,14 @@ section {
   pointer-events: none;
   overflow: hidden;
 }
+
 .vimeo-wrapper video {
   width: 100vw;
-  height: 56.25vw; /* Given a 16:9 aspect ratio, 9/16*100 = 56.25 */
+  height: 56.25vw;
+  /* Given a 16:9 aspect ratio, 9/16*100 = 56.25 */
   min-height: 100vh;
-  min-width: 177.77vh; /* Given a 16:9 aspect ratio, 16/9*100 = 177.77 */
+  min-width: 177.77vh;
+  /* Given a 16:9 aspect ratio, 16/9*100 = 177.77 */
   position: absolute;
   top: 50%;
   left: 50%;
@@ -679,6 +689,7 @@ section {
   background-color: transparent;
   border: 1px solid #c78665;
 }
+
 .eltdf-btn {
   position: relative;
   display: inline-block;
@@ -699,6 +710,7 @@ section {
   padding: 10px 70px 9px;
   cursor: pointer;
 }
+
 .eltdf-btn.eltdf-btn-outline .eltdf-btn-line-top {
   left: 4px;
   top: 4px;
@@ -709,6 +721,7 @@ section {
   transform: scaleX(1);
   transform-origin: right center;
 }
+
 .eltdf-btn.eltdf-btn-outline .eltdf-btn-line {
   position: absolute;
   background-color: currentColor;
@@ -716,6 +729,7 @@ section {
   -moz-transition: transform .35s ease-out;
   transition: transform .35s ease-out;
 }
+
 .eltdf-btn.eltdf-btn-outline .eltdf-btn-line-right {
   right: 4px;
   bottom: 4px;
@@ -726,6 +740,7 @@ section {
   transform: scaleY(1);
   transform-origin: center top;
 }
+
 .eltdf-btn.eltdf-btn-outline .eltdf-btn-line-bottom {
   right: 4px;
   bottom: 4px;
@@ -736,6 +751,7 @@ section {
   transform: scaleX(1);
   transform-origin: left center;
 }
+
 .eltdf-btn.eltdf-btn-outline .eltdf-btn-line-left {
   left: 4px;
   top: 4px;
@@ -750,25 +766,28 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-.about-carousel.owl-theme .owl-dots .owl-dot.active span, .dream-carousel .owl-theme .owl-dots .owl-dot:hover span
-{
+.about-carousel.owl-theme .owl-dots .owl-dot.active span,
+.dream-carousel .owl-theme .owl-dots .owl-dot:hover span {
   background: #A17F5A;
   width: 30px;
 }
-.section-heading{
+
+.section-heading {
   font-family: "Playfair";
   font-size: 48px;
   font-weight: 600;
   color: #07405A;
 }
-.section-subheading{
+
+.section-subheading {
   font-family: "Poppins";
   font-size: 18px;
   font-weight: 300;
   color: #A17F5A;
 
 }
-.about-text h4{
+
+.about-text h4 {
   font-family: "Poppins";
   font-size: 28px;
   font-weight: 600;
@@ -779,21 +798,22 @@ section {
 # Expertise
 --------------------------------------------------------------*/
 
-.expertise{
+.expertise {
   background: #A17F5A;
 }
 
-.carousel3
-{
+.carousel3 {
   position: relative;
 }
-.carousel3 .item img{
+
+.carousel3 .item img {
   width: 100%;
   height: 400px;
   object-fit: fill;
 }
-.carousel3 .owl-prev, .carousel3 .owl-next
-{
+
+.carousel3 .owl-prev,
+.carousel3 .owl-next {
   font-size: 34px !important;
   width: 45px;
   height: 45px;
@@ -807,21 +827,20 @@ section {
   justify-content: center;
   align-items: center;
 }
-.carousel3 .owl-prev
-{
+
+.carousel3 .owl-prev {
   top: 50%;
   left: -5px;
   transform: translateY(-50%);
 }
-.carousel3 .owl-next
-{
+
+.carousel3 .owl-next {
   top: 50%;
   right: -5px;
   transform: translateY(-50%);
 }
 
-.nav-pills .nav-link
-{
+.nav-pills .nav-link {
   border-radius: 2px;
   background: transparent;
   color: #000000;
@@ -829,51 +848,56 @@ section {
   font-size: 16px;
   font-weight: 500;
 }
-.nav-pills .nav-link.active
-{
+
+.nav-pills .nav-link.active {
   background: transparent;
- border-bottom: 2px solid #FFC452;
+  border-bottom: 2px solid #FFC452;
   color: #fff;
   font-size: 16px;
   font-weight: 500;
 }
 
 @media only screen and (max-width: 991px) {
-  .about-data{
+  .about-data {
     gap: 20px;
   }
+
   section {
     padding: 20px 0;
     overflow: hidden;
-}
-.section-heading {
-  font-family: "Playfair";
-  font-size: 32px;
-}
+  }
+
+  .section-heading {
+    font-family: "Playfair";
+    font-size: 32px;
+  }
 
 }
-.hospitality-data-ind{
+
+.hospitality-data-ind {
   margin-left: 45px;
   border-bottom: 1px solid #000;
 }
+
 @media only screen and (max-width: 991px) {
-  .hospitality-data-ind{
+  .hospitality-data-ind {
     margin-left: 0;
   }
 }
 
-.hospitality-text h4
-{
+.hospitality-text h4 {
   font-family: "Playfair";
   color: #07405A;
   font-weight: 700;
   font-size: 25px;
 }
-.hospitality-text p{
+
+.hospitality-text p {
   font-family: "Poppins";
   color: #A17F5A;
   font-size: 16px;
 }
+
 /**********************************/
 /********** Effect #10 CSS *********/
 /**********************************/
@@ -961,35 +985,39 @@ section {
 
 @-webkit-keyframes left-up {
   0% {
-      left: 100%;
-      height: 0;
+    left: 100%;
+    height: 0;
   }
+
   50% {
-      left: 0;
-      height: 0;
+    left: 0;
+    height: 0;
   }
+
   100% {
-      height: 100%;
-      left: 0;
+    height: 100%;
+    left: 0;
   }
 }
 
 @-webkit-keyframes right-dn {
   0% {
-      left: -100%;
-      height: 0;
+    left: -100%;
+    height: 0;
   }
+
   50% {
-      left: 0;
-      height: 0;
+    left: 0;
+    height: 0;
   }
+
   100% {
-      height: 100%;
-      left: 0;
+    height: 100%;
+    left: 0;
   }
 }
 
-.effect-10:hover .effect-detail{
+.effect-10:hover .effect-detail {
   margin-top: 15px;
   opacity: 1;
 }
@@ -1033,15 +1061,15 @@ section {
   transform: scale(1);
 }
 
-.effect-10:hover h2{
+.effect-10:hover h2 {
   display: none;
 }
 
-.blissful{
+.blissful {
   background-color: #EAEAEA;
 }
 
-.client-marq-text h2{
+.client-marq-text h2 {
   font-family: "Playfair";
   font-weight: 700;
   font-size: 38px;
@@ -1049,24 +1077,26 @@ section {
 }
 
 /*==clientele css===*/
-.marquee-wrapper
-{
+.marquee-wrapper {
   overflow-x: hidden;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.Marquees{
+
+.Marquees {
   overflow-x: hidden;
 }
-.Marquee{
+
+.Marquee {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 200vw;
 }
-.marquee{
+
+.marquee {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1075,108 +1105,121 @@ section {
   margin: 10px;
   border-radius: 15px;
 }
-.marquee:hover{
+
+.marquee:hover {
   background: #1d1d1d;
 }
-.SecondRow{
+
+.SecondRow {
   animation: Scroll 40s linear infinite;
   animation-direction: reverse;
 }
+
 @keyframes Scroll {
-  0% {transform: translateX(-50vw);
-      -webkit-transform: translateX(-50vw);}
-    100% {transform: translateX(50vw);
-        -webkit-transform: translateX(50vw);}
-    }
+  0% {
+    transform: translateX(-50vw);
+    -webkit-transform: translateX(-50vw);
+  }
+
+  100% {
+    transform: translateX(50vw);
+    -webkit-transform: translateX(50vw);
+  }
+}
 
 
-    @media only screen and (max-width: 991px) {
-      .marquee{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 2px;
-        border-radius: 15px;
-      }
-      .Marquee {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 400vw;
-    }
-    }
+@media only screen and (max-width: 991px) {
+  .marquee {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+    border-radius: 15px;
+  }
 
-        #hero-about {
-          min-height: calc(100vh - 110px);
-          display: flex;
-          align-items: center;
-          background-image: url("../img/about-us/about-hero.webp");
-          background-size: cover;
-          background-position: center;
-          position: relative;
-        }
-        #hero-about h1{
-          font-family: "Playfair Display SC";
-          margin: 0 0 10px 0;
-          font-size: 48px;
-          font-weight: 700;
-          line-height: 56px;
-          color: #fff;
+  .Marquee {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400vw;
+  }
+}
 
-        }
+#hero-about {
+  min-height: calc(100vh - 110px);
+  display: flex;
+  align-items: center;
+  background-image: url("../img/about-us/about-hero.webp");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
 
-        .about-us-text h3{
-          font-family: "Playfair Display";
-          color: #07405A;
-          font-size: 38px;
-          font-weight: 700;
-        }
+#hero-about h1 {
+  font-family: "Playfair Display SC";
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
 
-        .vertical-divide {
-          height: 100%;
-          width: 1px;
-          background-color: #07405A;
-          margin: 2px;
-          padding: 1px;
-          padding-bottom: 40px;
-          margin: auto;
-        }
+}
 
-        @media only screen and (max-width: 991px) {
-          .vertical-divide {
-            display: none;
-          }
-          .section-subheading {
-            font-size: 14px;
-        }
+.about-us-text h3 {
+  font-family: "Playfair Display";
+  color: #07405A;
+  font-size: 38px;
+  font-weight: 700;
+}
 
-        }
+.vertical-divide {
+  height: 100%;
+  width: 1px;
+  background-color: #07405A;
+  margin: 2px;
+  padding: 1px;
+  padding-bottom: 40px;
+  margin: auto;
+}
 
-        .about-service p{
-          font-family: "Playfair Display";
-          font-size: 18px;
-          color: #07405A;
-          margin-top: 10px;
-          font-weight: 600;
-        }
+@media only screen and (max-width: 991px) {
+  .vertical-divide {
+    display: none;
+  }
 
-        .work{
-          min-height: 40vh;
-          display: flex;
-          align-items: center;
-          background-image: url("../img/about-us/work-with-us-image.webp");
-          background-size: cover;
-          background-position: center;
-          background-position: bottom;
-          position: relative;
-          margin-bottom: 40px;
-        }
-        .work-text h2{
-          font-family: "Playfair Display SC";
-          font-size: 38px;
-          font-weight: 700;
-        }
-        .work-text p{
-          font-family: "Poppins";
-          font-size: 18px;
-        }
+  .section-subheading {
+    font-size: 14px;
+  }
+
+}
+
+.about-service p {
+  font-family: "Playfair Display";
+  font-size: 18px;
+  color: #07405A;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.work {
+  min-height: 40vh;
+  display: flex;
+  align-items: center;
+  background-image: url("../img/about-us/work-with-us-image.webp");
+  background-size: cover;
+  background-position: center;
+  background-position: bottom;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.work-text h2 {
+  font-family: "Playfair Display SC";
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.work-text p {
+  font-family: "Poppins";
+  font-size: 18px;
+}
