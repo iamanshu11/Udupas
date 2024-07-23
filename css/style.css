@@ -1255,27 +1255,3 @@ section {
   color: #fff;
 
 }
-.square{
-  height: 100%;
-  position: relative;
-}
-.square::before, .square::after
-{
-  opacity: 0;
-}
-.square:hover::before, .square:hover::after
-{
-  opacity: 1;
-}
-.square::after
-{
-  content: "";
-  position: absolute;
-  width: 150px;
-  height: 150px;
-  background-color: #FC9932;
-  bottom: -10px;
-  right: -10px;
-  z-index: -1;
-  transition: all 0.5s;
-}

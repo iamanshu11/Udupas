@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   $('.about-carousel').owlCarousel({
     loop: true,
-    margin: 0,
+    margin: 10,
     nav: false,
     dots: true,
     autoplay: true,
