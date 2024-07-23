@@ -781,7 +781,7 @@ section {
 }
 
 .section-heading {
-  font-family: "Playfair";
+  font-family: "Playfair Display";
   font-size: 48px;
   font-weight: 600;
   color: #07405A;
@@ -1233,4 +1233,25 @@ section {
 .work-text p {
   font-family: "Poppins";
   font-size: 18px;
+}
+
+#hero-terraform {
+    min-height: calc(100vh - 110px);
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    background-image: url("../img/terraform/terraform-hero-image.webp");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero-text h1{
+  font-family: "Playfair Display SC";
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+
 }
