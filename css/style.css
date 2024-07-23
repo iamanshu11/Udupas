@@ -1051,7 +1051,7 @@ section {
 
 .effect-10 .effect-text p {
   color: #ffffff;
-  font-size: 18px;
+  font-size: 16px;
   padding: 0 30px;
   margin: 0;
   opacity: 0;
@@ -1254,4 +1254,28 @@ section {
   line-height: 56px;
   color: #fff;
 
+}
+.square{
+  height: 100%;
+  position: relative;
+}
+.square::before, .square::after
+{
+  opacity: 1;
+}
+.square:hover::before, .square:hover::after
+{
+  opacity: 1;
+}
+.square::after
+{
+  content: "";
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background-color: #FC9932;
+  bottom: -10px;
+  right: -10px;
+  z-index: -1;
+  transition: all 0.5s;
 }
