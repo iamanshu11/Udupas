@@ -15,7 +15,6 @@ body {
   box-sizing: border-box;
   /* background-image: linear-gradient(to bottom, #FFFFFF, #F8E8D8); */
   background-color: #FFF8E7;
-  ;
 }
 
 a {
@@ -464,6 +463,7 @@ h6 {
 }
 
 #hero h2 {
+  font-family: "Poppins";
   color: #eee;
   margin-bottom: 25px;
   font-size: 24px;
@@ -1254,4 +1254,20 @@ section {
   line-height: 56px;
   color: #fff;
 
+}
+
+.get-form-body{
+  padding: 0;
+}
+.get-form-data{
+  padding-left: 0;
+}
+/* .modal-content-data{
+  width: 600px;
+} */
+.footer-ul{
+  margin-bottom: 0;
+}
+.modal-data-head{
+  background-color: #FFF8E7;
 }
