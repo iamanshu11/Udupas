@@ -462,11 +462,11 @@ h6 {
   color: #fff;
 }
 
-#hero h2 {
+#hero p {
   font-family: "Poppins";
-  color: #eee;
+  color: #ffffff;
   margin-bottom: 25px;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 #hero .play-btn {
