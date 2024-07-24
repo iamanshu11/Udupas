@@ -366,6 +366,7 @@ h6 {
   background-color: #fff;
   overflow-y: auto;
   transition: 0.3s;
+  border-radius: 15px;
 }
 
 .navbar-mobile a,
@@ -1270,4 +1271,8 @@ section {
 }
 .modal-data-head{
   background-color: #FFF8E7;
+}
+
+.happiness-data-img{
+  margin-bottom: 10px;
 }
