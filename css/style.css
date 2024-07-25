@@ -1276,3 +1276,30 @@ section {
 .happiness-data-img{
   margin-bottom: 10px;
 }
+
+#hero-thankyou{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: url("../img/about-us/about-hero.webp");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+#hero-thankyou h1{
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 4rem;
+    color: #ff9292;
+    text-shadow: 0px 4px 4px #000000;
+    /* text-transform: uppercase; */
+    /* background: #483232; */
+    padding: 5px 15px;
+}
+#hero-thankyou h4 {
+  font-family: var(--font-primary);
+  font-weight: 600;
+  font-size: 26px;
+  color: #ff9292;
+  text-shadow: 0px 4px 4px #000000;
+}
